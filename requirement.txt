@@ -1,0 +1,15 @@
+# List of packages to install
+packages = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "scikit-learn",
+    "seaborn",
+    "streamlit"
+]
+
+# Write to requirements.txt
+with open("requirements.txt", "w") as file:
+    file.write("\n".join(packages))
+
+print("requirements.txt has been created!")
